@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="137938" started-at="2021-02-04T19:36:02Z" finished-at="2021-02-04T19:38:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="137938" started-at="2021-02-04T19:36:02Z" finished-at="2021-02-04T19:38:20Z">
+      <class name="E2E_MobileAutomation.RahulMobileAutomaiton.Ecommerce_tc_4">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:E2E_MobileAutomation.RahulMobileAutomaiton.Ecommerce_tc_4@50b472aa]" name="killAllNodes" is-config="true" duration-ms="3021" started-at="2021-02-04T19:36:02Z" finished-at="2021-02-04T19:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:E2E_MobileAutomation.RahulMobileAutomaiton.Ecommerce_tc_4@50b472aa]" name="totalValidation" duration-ms="50321" started-at="2021-02-04T19:36:05Z" finished-at="2021-02-04T19:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- E2E_MobileAutomation.RahulMobileAutomaiton.Ecommerce_tc_4 -->
+      <class name="E2E_MobileAutomation.RahulMobileAutomaiton.ApiDemoTest">
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:E2E_MobileAutomation.RahulMobileAutomaiton.ApiDemoTest@31368b99]" name="apiDemo" duration-ms="42366" started-at="2021-02-04T19:36:55Z" data-provider="InputData" finished-at="2021-02-04T19:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String)[pri:0, instance:E2E_MobileAutomation.RahulMobileAutomaiton.ApiDemoTest@31368b99]" name="apiDemo" duration-ms="42097" started-at="2021-02-04T19:37:38Z" data-provider="InputData" finished-at="2021-02-04T19:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- E2E_MobileAutomation.RahulMobileAutomaiton.ApiDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
